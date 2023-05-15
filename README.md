@@ -37,6 +37,12 @@ $ systemctl restart sshd
 ```
 
 # Keyboard
+Install needed packages
+```Console
+$ apt-get install -y keyboard-configuration
+$ apt-get install -y console-setup
+```
+
 Change Keyboard layout with:
 ```Console
 $ dpkg-reconfigure keyboard-configuration
