@@ -41,3 +41,11 @@ Change Keyboard layout with:
 ```Console
 $ dpkg-reconfigure keyboard-configuration
 ```
+
+# Useful packages
+```console
+$ apt-get update
+$ apt-get upgrade
+$ apt-get install -y vim tmux python3 python3-pip
+$ pip install pip==22.3.1 --break-system-packages
+```
