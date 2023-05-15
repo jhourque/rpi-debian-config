@@ -52,6 +52,6 @@ $ dpkg-reconfigure keyboard-configuration
 ```console
 $ apt-get update
 $ apt-get upgrade
-$ apt-get install -y git curl vim tmux python3 python3-pip
+$ apt-get install -y git curl vim tmux python3 python3-pip gcc
 $ pip install pip==22.3.1 --break-system-packages
 ```
